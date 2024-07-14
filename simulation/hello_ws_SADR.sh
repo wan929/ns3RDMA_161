@@ -1,0 +1,6 @@
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 1000 --recmode 1 --tsize 5000 --fsize 400000 --ftime 200 --ola 0 > test_ws_80ms_30load_1_1000_0.txt
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 1000 --recmode 1 --tsize 5000 --fsize 400000 --ftime 200 --ola 1 > test_ws_80ms_30load_1_1000_1.txt
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 1000 --recmode 1 --tsize 5000 --fsize 0 --ftime 0 --ola 0 > test_ws_80ms_30load_1_1000_0_0.txt
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 1000 --recmode 1 --tsize 5000 --fsize 0 --ftime 0 --ola 1 > test_ws_80ms_30load_1_1000_1_0.txt
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 1000 --recmode 0 --tsize 0 --fsize 0 --ftime 0 --ola 0 > test_ws_80ms_30load_0_1000.txt
+python run.py --cc dcqcn --trace flow_WebSearch_fattree_k_8_80ms_30load --bw 100 --topo topology_fattree_k_8 --rto 1 --lossrate 0 --recmode 0 --tsize 0 --fsize 0 --ftime 0 --ola 0 > test_ws_80ms_30load_0_0.txt
